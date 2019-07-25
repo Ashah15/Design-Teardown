@@ -12,4 +12,5 @@ Rephrasing of Smashing Magazine
 [Click Here]
 
 ##### Link to the screenshot:
+![smashingmagazine](https://user-images.githubusercontent.com/25789605/61913875-33510f80-af47-11e9-9c93-58106bcba69e.png)
 
