@@ -12,9 +12,13 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Quattrocento', serif;
 }
 
+.p-relative{
+  position: relative;
+}
+
 
 .hot{
-  background-color: #464647;
+  background-color: #686869;
   color:#fff;
 }
 .cool{
@@ -51,11 +55,17 @@ nav{
   display: flex;
   justify-content: space-around;
 }
+
+.top-nav-links ul{
+  padding: 0;
+    display: flex;
+}
+
 .top-nav-links li{
   list-style: none;
   display: inline-block;
   padding: 5px;
-  font-size:1.2rem;
+  font-size:1rem;
 }
 .search-topic{
  border: solid 3px #fff;
@@ -80,8 +90,8 @@ nav{
     padding: .4rem 1rem;
     background: #fff;
     margin: auto;
-    top: -50%;
-    position: relative;
+    top: 20%;
+    position: absolute;
 }
 .latest-post-caption{
   font-size:1.8em;
@@ -173,14 +183,25 @@ nav{
 
 .w-10{
   flex: none !important;
-  width: 20%;
+  width: 10%;
+}
+
+.footer__topics__list{
+   display: flex;
+   flex-wrap: wrap;
+   padding:2rem 4rem;
+   justify-content: center;
+}
+
+.seventh-section h2{
+  margin:1.4rem 0;
 }
 
 .footer__topics__list li{
-  display: flex;
-  padding-right: 1rem;
+  padding-right: 1.8rem;
   line-height: 1.5em;
   font-size: 1.4rem;
+
 }
 
 .footer__topics__list a{
