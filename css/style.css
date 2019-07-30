@@ -80,8 +80,8 @@ nav{
     padding: .4rem 1rem;
     background: #fff;
     margin: auto;
-    top: -50%;
-    position: relative;
+    top: 30%;
+    position: absolute;
 }
 .latest-post-caption{
   font-size:1.8em;
