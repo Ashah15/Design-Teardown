@@ -47,7 +47,7 @@ nav{
 }
 .top-nav-links {
   width: 80%;
-  flex:none !important;
+  flex:none;
   display: flex;
   justify-content: space-around;
 }
@@ -64,7 +64,7 @@ nav{
  text-align: center;
  font-size:1.3em;
  width:10%;
- flex:none !important;
+ flex:none;
 }
 
 .first-section{
@@ -159,8 +159,8 @@ nav{
 }
 
 .blacktext{
-  color:#000 !important;
-  font-size: 1.4rem !important;
+  color:#000;
+  font-size: 1.4rem;
 }
 
 .img-box{
@@ -172,7 +172,7 @@ nav{
 }
 
 .w-10{
-  flex: none !important;
+  flex: none;
   width: 20%;
 }
 
